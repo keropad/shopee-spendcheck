@@ -1,16 +1,16 @@
 
 # ShopeeSpendCheck (K Padilla)
 
-Track how much you've spent on Shopee — without having to guess. This lightweight browser extension displays your total visible purchase amount directly on the page.
+Track how much you've spent on Shopee PH — without having to guess. This FREE lightweight browser extension displays your total visible purchase amount directly on the page.
 
 ## Features
 
 - Instantly shows your total Shopee spend
 - Refreshes as you scroll (auto-updating)
-- Bulletproof detection using `aria-label="Order Total"`
-- Doesn't rely on fragile class names
+- Completely free and open-source
 - Floating, draggable UI
 - Works in Chrome, Edge, Brave, and other Chromium-based browsers
+- ShopeeSpendCheck does **not** collect, store, or transmit any data. All calculations happen inside your browser.
 
 ## Installation
 
@@ -32,9 +32,9 @@ You can download the ready-to-use ZIP version here:
 
 ## Notes
 
-- Totals reflect only the orders currently loaded in the DOM.
-- For accuracy, scroll all the way down in your order tab ("To Receive", "Completed", etc).
-- Calculations are based on `aria-label` content like `Order Total: ₱xxx`, so it's resilient to class name changes.
+- The total amount displayed is based on the items currently loaded on the page.
+- Shopee loads more past purchases as you scroll down. This means the total shown only includes the products visible at that moment.
+- To get a more accurate total, scroll down to load more of your purchase history.
 
 ## Future Features
 
@@ -44,4 +44,4 @@ You can download the ready-to-use ZIP version here:
 
 ## License
 
-MIT
+Free
