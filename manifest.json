@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "ShopeeSpendCheck",
+  "version": "1.0",
+  "description": "Displays the total amount you've spent on Shopee based on loaded order history.",
+  "permissions": [],
+  "content_scripts": [{
+    "matches": ["*://shopee.ph/*"],
+    "js": ["content.js"]
+  }],
+  "icons": {
+    "48": "icon.png"
+  }
+}
